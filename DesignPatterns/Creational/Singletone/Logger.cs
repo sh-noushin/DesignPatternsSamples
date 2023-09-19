@@ -15,6 +15,9 @@ namespace Singletone
            
         }
 
+        //We have an static Instance property that accesses our private _instance property , and all objects from this class
+        //use the same instance and there is no need to create a new instance for each object.
+
         public static Logger Instance
         {
             get
