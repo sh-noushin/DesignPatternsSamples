@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FactoryMethod
 {
-    // Second Concerete Product.
+    // Second Concrete Product.
   public class PayPalPaymentProcessor : IPaymentProcessor
     {
         public void ProcessPayment(double amount)

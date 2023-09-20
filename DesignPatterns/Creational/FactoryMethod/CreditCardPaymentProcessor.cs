@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FactoryMethod
 {
-    //First Concerete Product.
+    //First Concrete Product.
     public class CreditCardPaymentProcessor : IPaymentProcessor
     {
         public void ProcessPayment(double amount)
