@@ -11,9 +11,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral", "Behavioral", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singletone", "Creational\Singletone\Singletone.csproj", "{553CA2A1-76EF-4EF0-94FD-A59505CF53C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "Creational\FactoryMethod\FactoryMethod.csproj", "{EF23C244-E84E-40F9-9BAC-469F8B9FB8F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod", "Creational\FactoryMethod\FactoryMethod.csproj", "{EF23C244-E84E-40F9-9BAC-469F8B9FB8F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "Creational\AbstractFactory\AbstractFactory.csproj", "{5DCBFAB9-048F-43C0-8E75-71F1F1293F9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "Creational\AbstractFactory\AbstractFactory.csproj", "{5DCBFAB9-048F-43C0-8E75-71F1F1293F9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Creational\Builder\Builder.csproj", "{374734AA-5D31-4C11-8096-6C35D8581ADF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{5DCBFAB9-048F-43C0-8E75-71F1F1293F9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5DCBFAB9-048F-43C0-8E75-71F1F1293F9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5DCBFAB9-048F-43C0-8E75-71F1F1293F9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{374734AA-5D31-4C11-8096-6C35D8581ADF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{374734AA-5D31-4C11-8096-6C35D8581ADF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{374734AA-5D31-4C11-8096-6C35D8581ADF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{374734AA-5D31-4C11-8096-6C35D8581ADF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +47,7 @@ Global
 		{553CA2A1-76EF-4EF0-94FD-A59505CF53C2} = {26661D03-8A1F-4BA2-89F2-39095A43B148}
 		{EF23C244-E84E-40F9-9BAC-469F8B9FB8F2} = {26661D03-8A1F-4BA2-89F2-39095A43B148}
 		{5DCBFAB9-048F-43C0-8E75-71F1F1293F9C} = {26661D03-8A1F-4BA2-89F2-39095A43B148}
+		{374734AA-5D31-4C11-8096-6C35D8581ADF} = {26661D03-8A1F-4BA2-89F2-39095A43B148}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D0F52B7A-8779-47C2-A721-24E3C38B5365}
